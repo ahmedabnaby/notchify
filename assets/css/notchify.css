@@ -1,0 +1,37 @@
+.inner_notchify
+{
+    position: relative;
+    left: 110%;
+    top: 90px;
+}
+.notch_logo
+{
+    position: absolute;
+    top: 31px;
+    z-index: 9999;
+    right: 0;
+}
+.robot
+{
+    position: absolute;
+    top:25px;
+    left: -355px;
+}
+.robot-width
+{
+    width: 1500px !important;
+}
+.notch-width
+{
+    width: 350px !important;
+}
+.messenger-width
+{
+    width: 200px !important;
+}
+.whatsapp-width
+{
+    margin-left: -15px;
+    margin-top: 50px;
+    width: 220px !important;
+}
