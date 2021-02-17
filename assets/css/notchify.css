@@ -187,10 +187,68 @@
         width: 220px !important;
     }
 }
-@media (min-height:1020px)
+@media (min-width:1921px) and (max-width: 2560px)
 {
     .banner-carousel-four .slide-item
     {
         height: 1100px !important;
+    }
+    .inner_notchify
+    {
+        position: relative;
+        left: 130% !important;
+        top: 450px;
+    }
+    .notch_logo
+    {
+        position: absolute;
+        top: 31px;
+        z-index: 9999;
+        right: 0;
+    }
+    .robot
+    {
+        position: absolute;
+        top:315px;
+        left: -355px;
+    }
+    .robot-width
+    {
+        width: 1800px !important;
+    }
+    .notch-width
+    {
+        width: 350px !important;
+    }
+    .messenger-width
+    {
+        width: 250px !important;
+    }
+    .whatsapp-width
+    {
+        margin-left: -15px;
+        margin-top: 20px;
+        width: 270px !important;
+    }
+}
+@media (min-height:1020px) and (max-height:1099px)
+{
+    .banner-carousel-four .slide-item
+    {
+        height: 1100px !important;
+    }
+}
+@media (min-height:1100px) and (max-height:1249px)
+{
+    .banner-carousel-four .slide-item
+    {
+        height: 1250px !important;
+    }
+}
+@media (min-height:1300px) and (max-height:1440px)
+{
+    .banner-carousel-four .slide-item
+    {
+        height: 1440px !important;
     }
 }
