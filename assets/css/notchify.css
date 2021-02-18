@@ -1,29 +1,51 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../images/notchify/gradientbackground.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .inner_notchify
 {
-    position: relative;
-    left: 110%;
-    top: 90px;
+    position: absolute;
+    right: 2%;
+    margin-right: -10px;
+    bottom: 0px;
+}
+.inner_notchify2
+{
+    position: absolute;
+    right: 2%;
+    bottom: 230px;
 }
 .notch_logo
 {
     position: absolute;
-    top: 31px;
-    z-index: 9999;
+    top: 21px;
     right: 0;
 }
 .robot
 {
     position: absolute;
-    top:25px;
-    left: -355px;
+    bottom:0;
+    left: -1%;
 }
 .robot-width
 {
-    width: 1500px !important;
+    width: 1700px !important;
 }
 .notch-width
 {
-    width: 350px !important;
+    width: 305px !important;
 }
 .messenger-width
 {
@@ -34,221 +56,4 @@
     margin-left: -15px;
     margin-top: 50px;
     width: 220px !important;
-}
-@media (min-width:1280px) and (max-width: 1365px)
-{
-    .inner_notchify
-    {
-        position: relative;
-        left: 89%;
-        top: 80px;
-    }
-    .whatsapp-width
-    {
-        width: 180px !important;
-        margin-top: 35px;
-    }
-    .messenger-width
-    {
-        width: 160px !important;
-    }
-    .robot
-    {
-        position: absolute;
-        top:105px;
-        left: -200px;
-    }
-    .robot-width
-    {
-        width: 1200px !important;
-    }
-}
-@media (min-width:1366px) and (max-width: 1439px)
-{
-    .inner_notchify
-    {
-        position: relative;
-        left: 90%;
-        top: 20px;
-    }
-    .notch_logo
-    {
-        position: absolute;
-        top: 31px;
-        z-index: 9999;
-        right: 0;
-    }
-    .robot
-    {
-        position: absolute;
-        top:25px;
-        left: -355px;
-    }
-    .robot-width
-    {
-        width: 1350px !important;
-    }
-    .notch-width
-    {
-        width: 350px !important;
-    }
-    .messenger-width
-    {
-        width: 200px !important;
-    }
-    .whatsapp-width
-    {
-        margin-left: -15px;
-        margin-top: 20px;
-        width: 220px !important;
-    }
-}
-@media (min-width:1440px) and (max-width: 1679px)
-{
-    .inner_notchify
-    {
-        position: relative;
-        left: 93%;
-        top: 90px;
-    }
-    .notch_logo
-    {
-        position: absolute;
-        top: 31px;
-        z-index: 9999;
-        right: 0;
-    }
-    .robot
-    {
-        position: absolute;
-        top:25px;
-        left: -355px;
-    }
-    .robot-width
-    {
-        width: 1500px !important;
-    }
-    .notch-width
-    {
-        width: 350px !important;
-    }
-    .messenger-width
-    {
-        width: 200px !important;
-    }
-    .whatsapp-width
-    {
-        margin-left: -15px;
-        margin-top: 50px;
-        width: 220px !important;
-    }
-}
-@media (min-width:1680px) and (max-width: 1919px)
-{
-    .banner-carousel-four .slide-item
-    {
-        height: 1100px !important;
-    }
-    .inner_notchify
-    {
-        position: relative;
-        left: 102%;
-        top: 250px;
-    }
-    .notch_logo
-    {
-        position: absolute;
-        top: 31px;
-        z-index: 9999;
-        right: 0;
-    }
-    .robot
-    {
-        position: absolute;
-        top:115px;
-        left: -355px;
-    }
-    .robot-width
-    {
-        width: 1600px !important;
-    }
-    .notch-width
-    {
-        width: 350px !important;
-    }
-    .messenger-width
-    {
-        width: 200px !important;
-    }
-    .whatsapp-width
-    {
-        margin-left: -15px;
-        margin-top: 20px;
-        width: 220px !important;
-    }
-}
-@media (min-width:1921px) and (max-width: 2560px)
-{
-    .banner-carousel-four .slide-item
-    {
-        height: 1100px !important;
-    }
-    .inner_notchify
-    {
-        position: relative;
-        left: 130% !important;
-        top: 450px;
-    }
-    .notch_logo
-    {
-        position: absolute;
-        top: 31px;
-        z-index: 9999;
-        right: 0;
-    }
-    .robot
-    {
-        position: absolute;
-        top:315px;
-        left: -355px;
-    }
-    .robot-width
-    {
-        width: 1800px !important;
-    }
-    .notch-width
-    {
-        width: 350px !important;
-    }
-    .messenger-width
-    {
-        width: 250px !important;
-    }
-    .whatsapp-width
-    {
-        margin-left: -15px;
-        margin-top: 20px;
-        width: 270px !important;
-    }
-}
-@media (min-height:1020px) and (max-height:1099px)
-{
-    .banner-carousel-four .slide-item
-    {
-        height: 1100px !important;
-    }
-}
-@media (min-height:1100px) and (max-height:1249px)
-{
-    .banner-carousel-four .slide-item
-    {
-        height: 1250px !important;
-    }
-}
-@media (min-height:1300px) and (max-height:1440px)
-{
-    .banner-carousel-four .slide-item
-    {
-        height: 1440px !important;
-    }
 }
