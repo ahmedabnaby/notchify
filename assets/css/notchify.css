@@ -110,6 +110,7 @@ min-height: 100%;
     right: -67%;
     width: 220%;
     margin-bottom: -25% !important;
+    object-fit:contain;
     height: 150% !important;
     bottom: 0;
     min-width: 100%;
