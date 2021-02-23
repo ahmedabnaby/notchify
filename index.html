@@ -52,9 +52,9 @@
     </div><!-- /.preloader -->
     <div class="bg page-wrapper">
 
-        <div class="notch_logo">
+        <!-- <div class="notch_logo">
             <a href="https://www.notchnco.com/"><img src="assets/images/notchify/notchncologo.png" class="notch-width"/></a>
-        </div>
+        </div> -->
                     <div class="robot">
                         <!-- <img src="assets/images/notchify/re.gif" class="robot-width"/> -->
                         <video playsinline="true" id="myVideo">
@@ -103,7 +103,9 @@
     <!-- template scripts -->
     <script src="assets/js/theme.js"></script>
     <script>
-        document.getElementById('myVideo').play();
+        var bgvideo = document.getElementById("myVideo");
+        bgvideo.muted = true;
+        bgvideo.play();
     </script>
 </body>
 
